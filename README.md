@@ -1,5 +1,9 @@
-# Wild Blodyn Website
-User Centric Frontend Development Milestone Project
+# Wild Blodyn
+Wild Blodyn (...that's flower in Welsh!) is a website for the North Wales based florist Bethann Owen.
+
+The website's goal is to showcase Bethann's floristry skills for potential new customers and offer design inspiration for current customers. The site also aims to give previous customers a reason to return.
+
+It is intended to be a central hub for the Wild Blodyn brand which will link multiple social media presences and give users the means to contact Bethann and engage her services. 
 
 ## Contents
 1. [UX](#ux)
@@ -27,6 +31,12 @@ User Centric Frontend Development Milestone Project
 
 ## UX
 ### Strategy
+The primary focus for this website is to showcase Bethann's work to potential customers and develop the reputation of Wild Blodyn and Bethann herself. Whilst Wild Blodyn is present across social media, a custom website can be styled in the image of a brand in ways those platforms cannot. The key goals of this website are to increase awareness of Wild Blodyn and ultimately increase customers for Bethann.
+
+The target audience has been identified by Bethann as people who are interested in the artistry of flower arranging and are looking for more from their flowers than what supermarkets and petrol stations have to offer. When considering this target audience, the images of flower arrangements become the key elements of the site and an 'about me' section that speaks to Bethann's love for the craft will add value. Technical data or any other verbiage that does not speak passionately about the subject should be avoided
+
+The site is hoping to serve users that like to share and distribute their internet finds via their own social media accounts. Adding in the ability to do this will not only satisfy the visitor's requirements, but it will also increase brand awareness which is a goal of the site.
+
 ### Scope
 ### Structure
 ### Skeleton
@@ -37,6 +47,8 @@ User Centric Frontend Development Milestone Project
 ### Future
 
 ## Technologies Used
+* HTML5
+* CSS3
 
 ## Development Cycle
 ### Planning
