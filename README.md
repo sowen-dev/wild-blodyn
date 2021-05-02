@@ -37,7 +37,25 @@ The target audience has been identified by Bethann as people who are interested 
 
 The site is hoping to serve users that like to share and distribute their internet finds via their own social media accounts. Adding in the ability to do this will not only satisfy the visitor's requirements, but it will also increase brand awareness which is a goal of the site.
 
+
 ### Scope
+The primary goals of this website are:
+* Increasing awareness of the brand
+* Showcasing work
+* Increasing interactions with existing and potential customers
+
+Some other goals that were considered were dynamic seasonal price lists and the taking of online orders. Both of these features are of relatively low importance when compared to the goals above and both would be difficult to implement in the available time - for these reasons they have been excluded from the scope of this project.
+
+Some example user stories which help outline the scope of this project:
+
+> As a customer, I want to view a series of photos that demonstrate versatility and ability in flower arranging.
+
+> As a customer, I want to the site to demonstrate the dates and events that are catered for.
+
+> As a customer, I want to either enter details into a contact page or be able to click through to social media in order to make contact and engage services.
+
+> As someone who is passionate about flower arranging, I want the ability to browse a variety of photos and easily share them to my social media timeline.
+
 ### Structure
 ### Skeleton
 ### Surface
@@ -50,7 +68,7 @@ The site is hoping to serve users that like to share and distribute their intern
 * HTML5
 * CSS3
 
-## Development Cycle
+## Development Diary
 ### Planning
 ### Define Requirements
 ### Design
