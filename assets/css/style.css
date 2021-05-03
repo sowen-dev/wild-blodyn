@@ -41,7 +41,6 @@ h2 {
 /* Header----------------------------------------- */
 
 header {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   padding-top: 30px;
 }
 
@@ -51,10 +50,15 @@ header {
   height: 600px;
 }
 
+/* Navigation------------------------------------- */
+
 #menu {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   line-height: 90px;
   text-align: center;
   width: 100%;
+  /* Set z-index to keep navigation bar on top */
+  z-index: 1;
 }
 
 #menu li {
@@ -66,7 +70,39 @@ header {
   margin: 0px 40px 0px 40px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + #welcome {
+  padding-top: 90px;
+}
+
+/*
+Making the navigation menu sticky meant clicking the
+links scrolled the requested section into position at
+the top of the page, underneath the menu. The fix is to
+add an anchor tag inline with the header and pad it so
+that the request section is scrolled into view with an
+offset added to the top which takes it clear of the
+menu. Link: https://stackoverflow.com/a/13117744
+*/
+
+.anchor {
+padding-top: 110px;
+}
+
 /* Welcome---------------------------------------- */
+
+section {
+  padding: 0 240px 0 240px
+}
+
+section h2 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
 
 /* Gallery---------------------------------------- */
 
