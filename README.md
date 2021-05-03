@@ -66,6 +66,8 @@ There will be four distinct sections to the site:
 Given the target audience, a single page, linear experience would be best suited. The site will be navigated in a similar way to a social media site's timeline. As the user scrolls down the page, the sections flow in a logical order: 'About Me' is a brief introduction, the gallery is demonstration of ability. The dates and events section gives customers the inspiration and reason to place an order and the contact form at the end gives them the ability to reach out and take the first steps in engaging the client's services.
 
 ### Skeleton
+[Wireframes on Imgur](https://imgur.com/a/uDJDulP)
+
 ### Surface
 
 ## Features
