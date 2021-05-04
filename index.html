@@ -199,19 +199,33 @@
       </section>
       <section id="contact">
         <h2><a class="anchor" id="contact-anchor"></a>Contact</h2>
-        <form id="contact-form">
-          <div>
-            <input type="text" id="name" name="name" placeholder="Name" />
-            <input type="text" id="email" name="email" placeholder="Email" />
+        <div id="form-wrapper">
+          <form method="POST" id="contact-form">
             <input
               type="text"
+              id="full-name"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              type="text"
+              rows="6"
               id="message"
               name="message"
               placeholder="Message"
-            />
-            <input type="submit" value="Submit" />
-          </div>
-        </form>
+              required
+            ></textarea>
+            <input id="submit" type="submit" value="Submit" />
+          </form>
+        </div>
       </section>
     </main>
 

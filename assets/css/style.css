@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Hind+Madurai&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Hind+Madurai&display=swap");
 
 * {
   margin: 0;
@@ -18,9 +18,26 @@
 
 /* Fonts------------------------------------------ */
 
-body {
+body,
+input,
+textarea {
   color: #515151ff;
   font-family: "Hind Madurai", sans-serif;
+}
+
+body {
+  font-size: 120%;
+}
+
+input,
+textarea {
+  font-size: 110%;
+}
+
+#submit {
+  font-family: "Amiri", serif;
+  text-transform: uppercase;
+  font-size: 110%;
 }
 
 #menu a,
@@ -112,7 +129,31 @@ section h2 {
 /* Contact---------------------------------------- */
 
 #contact {
+  /* Push content up above the sticky footer */
   padding-bottom: 90px;
+}
+
+input,
+textarea {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin: 0 auto 20px auto;
+  padding: 8px;
+  width: 70%;
+}
+
+textarea {
+  /* Remove resize handle from control */
+  resize: none;
+}
+
+#submit {
+  width: 120px;
+}
+
+#submit:hover {
+  background: lavenderblush;
 }
 
 /* Footer----------------------------------------- */
@@ -135,5 +176,5 @@ footer i {
   font-size: 200%;
   padding: 20px 0 20px 0;
   margin: 0 20px 0 20px;
-  color: #515151ff
+  color: #515151ff;
 }
