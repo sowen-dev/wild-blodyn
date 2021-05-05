@@ -41,7 +41,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # Balsamiq wireframes folder
-.wireframes
+.wireframes/*
+
+# Screenshots folder
+.screenshots/*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
 
