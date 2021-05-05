@@ -144,7 +144,18 @@ section h2 {
 /* Gallery---------------------------------------- */
 
 #gallery {
+  margin-top: 20px;
+}
+
+#gallery-wrapper {
   clear: both;
+  column-count: 4;
+  column-gap: 0;
+  line-height: 0;
+}
+
+#gallery-wrapper img {
+  width: 100%;
 }
 
 /* Events----------------------------------------- */
