@@ -35,7 +35,7 @@ textarea {
 }
 
 body {
-  font-size: 120%;
+  font-size: 140%;
 }
 
 input,
@@ -123,7 +123,7 @@ menu. Link: https://stackoverflow.com/a/13117744
 /* Welcome---------------------------------------- */
 
 section {
-  padding: 0 320px 0 320px;
+  padding: 40px 320px 0 320px;
 }
 
 section h2 {
@@ -131,7 +131,21 @@ section h2 {
   padding-bottom: 10px;
 }
 
+#profile-photo {
+  border-radius: 50%;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+  shape-outside: circle();
+  -webkit-shape-outside: circle();
+}
+
 /* Gallery---------------------------------------- */
+
+#gallery {
+  clear: both;
+}
 
 /* Events----------------------------------------- */
 
@@ -152,7 +166,8 @@ textarea {
   width: 70%;
 }
 
-input :hover, :focus {
+input :hover,
+:focus {
   box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
 }
 
