@@ -6,6 +6,15 @@
   border: 0;
 }
 
+/* Chrome was showing a heavy black border around input controls on focus.
+Fix found here: https://stackoverflow.com/a/62103854 */
+
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+
 /* Colours---------------------------------------- */
 
 .bg-colour-header {
@@ -143,6 +152,10 @@ textarea {
   width: 70%;
 }
 
+input :hover, :focus {
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
 textarea {
   /* Remove resize handle from control */
   resize: none;
@@ -153,7 +166,7 @@ textarea {
 }
 
 #submit:hover {
-  background: lavenderblush;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer----------------------------------------- */
