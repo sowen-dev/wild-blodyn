@@ -31,7 +31,7 @@ body,
 input,
 textarea {
   color: #515151ff;
-  font-family: "Hind Madurai", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -65,6 +65,13 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  font-family: "Amiri", serif;
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 /* Header----------------------------------------- */
 
 header {
@@ -85,7 +92,7 @@ header {
   text-align: center;
   width: 100%;
   /* Set z-index to keep navigation bar on top */
-  z-index: 1;
+  z-index: 2;
 }
 
 #menu li {
@@ -160,6 +167,62 @@ section h2 {
 
 /* Events----------------------------------------- */
 
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #515151ff;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #c7adb6;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: #cce3db;
+  position: relative;
+  border-radius: 6px;
+}
+
 /* Contact---------------------------------------- */
 
 #contact {
@@ -169,6 +232,7 @@ section h2 {
 
 input,
 textarea {
+  font-size: 100%;
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
@@ -204,6 +268,7 @@ footer {
   width: 100%;
   position: fixed;
   text-align: center;
+  z-index: 2;
 }
 
 footer li {
