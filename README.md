@@ -16,11 +16,8 @@ It is intended to be a central hub for the Wild Blodyn brand which will link mul
     1. [Existing](#existing)
     2. [Future](#future)
 3. [Technologies Used](#technologies-used)
-4. [Development Cycle](#development-cycle)
-   1. [Planning](#planning)
-   2. [Define Requirements](#define-requirements)
-   3. [Design](#design)
-   4. [Development](#development)
+4. [Development](#development)
+   1. [Tools Users](#tools-used)
    5. [Testing](#testing)
    6. [Deployment](#deployment)
    7. [Operations and Maintenance](#operations-and-maintenance)
@@ -66,28 +63,56 @@ There will be four distinct sections to the site:
 Given the target audience, a single page, linear experience would be best suited. The site will be navigated in a similar way to a social media site's timeline. As the user scrolls down the page, the sections flow in a logical order: 'About Me' is a brief introduction, the gallery is demonstration of ability. The dates and events section gives customers the inspiration and reason to place an order and the contact form at the end gives them the ability to reach out and take the first steps in engaging the client's services.
 
 ### Skeleton
-[Wireframes on Imgur](https://imgur.com/a/uDJDulP)
+[Wireframes on Imgur](https://imgur.com/a/2s0EbhZ)
 
 ### Surface
 
 ## Features
 ### Existing
+* Large prominent logo at top of page above a navigation menu that becomes sticky so is persistent when browsing
+
+* Welcome message and photo (on suitably sized devices) from Bethann of Wild Blodyn
+
+* Image gallery demonstrating ability and versatility of the client
+
+* 'Calendar' in the style of a timeline which shows the events which are catered for throughout the year
+
+* Contact form - temporarily posts to Code Institute form dump: https://formdump.codeinstitute.net
+
+* Social media links
+
 ### Future
+* Contact form that delivers message to client
+
+* Sign up for a mailing list
+
+* Social media share buttons on all images in the gallery
 
 ## Technologies Used
 * HTML5
 * CSS3
+* JavaScript (for sticky navigation bar)
 
-## Development Diary
-### Planning
-### Define Requirements
-### Design
-### Development
+## Development
+### Tools Used
+The IDE used was Visual Studio Code with the following plugins:
+* Auto Close Tag
+* Code Spell Checker
+* Gitmoji
+* Live Server
+* Prettier
+
+GitHub was used for version control and Balsamiq was used in the development process to produce wireframes.
+
 ### Testing
 ### Deployment
 ### Operations and Maintenance
 
 ## Credits
 ### Content
+Welcome section words and the contents of the calendar cards were provided by Wild Blodyn.
+
 ### Media
+All media (including the logo) was supplied by Wild Blodyn. Wild Blodyn are the sole owner of all images and graphics used.
+
 ### Acknowledgements
