@@ -18,9 +18,8 @@ It is intended to be a central hub for the Wild Blodyn brand which will link mul
 3. [Technologies Used](#technologies-used)
 4. [Development](#development)
    1. [Tools Users](#tools-used)
-   5. [Testing](#testing)
-   6. [Deployment](#deployment)
-   7. [Operations and Maintenance](#operations-and-maintenance)
+   2. [Testing](#testing)
+   3. [Deployment](#deployment)
 5. [Credits](#credits)
    1. [Content](#content)
    2. [Media](#media)
@@ -104,9 +103,15 @@ The IDE used was Visual Studio Code with the following plugins:
 
 GitHub was used for version control and Balsamiq was used in the development process to produce wireframes.
 
+Chrome Developer Tools were used throughout.
+
 ### Testing
+Page was tested using Chrome (desktop and mobile), Microsoft Edge and Mozilla Firefox.
+
+During testing any bugs found were recorded in GitHub issues. Then referenced in the commit message once fixed.
+
 ### Deployment
-### Operations and Maintenance
+This site was deployed as a GitHub page.
 
 ## Credits
 ### Content
