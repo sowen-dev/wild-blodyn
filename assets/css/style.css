@@ -35,7 +35,7 @@ textarea {
 }
 
 body {
-  font-size: 140%;
+  font-size: 130%;
 }
 
 input,
@@ -130,7 +130,7 @@ menu. Link: https://stackoverflow.com/a/13117744
 /* Welcome---------------------------------------- */
 
 section {
-  padding: 40px 320px 0 320px;
+  padding: 0 16% 0 16%;
 }
 
 section h2 {
@@ -138,31 +138,40 @@ section h2 {
   padding-bottom: 10px;
 }
 
+#welcome-section {
+  margin-top: 20px;
+}
+
 #profile-photo {
   border-radius: 50%;
   float: left;
   width: 200px;
   height: 200px;
-  margin-right: 40px;
-  shape-outside: circle();
-  -webkit-shape-outside: circle();
+  position: relative;
+  top: -40px;
+}
+
+#welcome-text {
+  margin-left: 260px;
+}
+
+#welcome-section h3 {
+  margin-bottom: 10px;
+  margin-left: 260px;
 }
 
 /* Gallery---------------------------------------- */
 
-#gallery {
-  margin-top: 20px;
-}
-
 #gallery-wrapper {
   clear: both;
-  column-count: 4;
-  column-gap: 0;
+  column-count: 3;
+  column-gap: 10px;
   line-height: 0;
 }
 
 #gallery-wrapper img {
   width: 100%;
+  margin-bottom: 10px;
 }
 
 /* Events----------------------------------------- */
@@ -244,7 +253,12 @@ section h2 {
 
 #contact {
   /* Push content up above the sticky footer */
-  padding-bottom: 90px;
+  padding-bottom: 600px;
+}
+
+#form-wrapper {
+  width: 50%;
+  margin: auto;
 }
 
 input,
@@ -255,7 +269,7 @@ textarea {
   border-radius: 3px;
   margin: 0 auto 20px auto;
   padding: 8px;
-  width: 70%;
+  width: 100%;
 }
 
 input :hover,
@@ -279,6 +293,7 @@ textarea {
 /* Footer----------------------------------------- */
 
 footer {
+  background-color: lavenderblush;
   bottom: 0;
   box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
   left: 0;
@@ -298,4 +313,73 @@ footer i {
   padding: 20px 0 20px 0;
   margin: 0 20px 0 20px;
   color: #515151ff;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 1393px) {
+  #welcome-section h3 {
+    margin-left: 0;
+  }
+
+  #profile-photo {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: none;
+    top: 0;
+  }
+
+  #gallery-wrapper {
+    column-count: 2;
+  }
+
+  #welcome-text {
+    margin-left: 0;
+  }
+
+  #form-wrapper {
+    width: 75%;
+  }
+
+  .container {
+    width: 95%;
+    padding-right: 0;
+  }
+
+  .left,
+  .right,
+  .timeline::after {
+    left: 0;
+  }
+
+  .left::after {
+    left: -16px;
+  }
+}
+
+@media screen and (max-width: 943px) {
+  section {
+    padding: 0 8% 0 8%;
+  }
+
+  #gallery-wrapper {
+    column-count: 1;
+    text-align: center;
+  }
+
+  #gallery-wrapper img {
+    width: 90%;
+  }
+
+  #form-wrapper {
+    width: 100%;
+  }
+
+  .event-icon {
+    display: none;
+  }
+
+  .event-info {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
