@@ -361,12 +361,13 @@ footer i {
     position: fixed;
     top: 0;
     line-height: 60px;
+    background-color: lavenderblush;
   }
 
   #welcome h3 {
     font-size: 100%;
   }
-  
+
   #menu a {
     margin: 0px 5px 0px 5px;
     font-size: 75%;
@@ -376,9 +377,12 @@ footer i {
     padding: 0 8% 0 8%;
   }
 
-  #logo {
-    padding-top: 60px;
+  .bg-colour-header {
     background-color: white;
+  }
+
+  #logo {
+    margin-top: 30px;
   }
 
   #contact {
