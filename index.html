@@ -64,62 +64,91 @@
       </section>
 
       <!-- Gallery section -->
+      <!-- This gallery is based on the design from the Code Institute Love Running project. Some amendments were made to the styling and the media query break points were changed to suit the flow of my page. Images are also wrapped in anchor tags so they can be clicked on for a full screen view -->
       <section id="gallery">
         <h2><a class="anchor" id="gallery-anchor"></a>Gallery</h2>
         <div id="gallery-wrapper">
           <a href="assets/images/gallery/arrange1.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange1.jpg" />
+            <img
+              src="assets/images/gallery/arrange1.jpg"
+              alt="foliage bouquet wrapped with a polka dot bow"
+            />
           </a>
           <a href="assets/images/gallery/arrange2.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange2.jpg" />
+            <img
+              src="assets/images/gallery/arrange2.jpg"
+              alt="bouquet of orange and yellow roses and daisies"
+            />
           </a>
           <a href="assets/images/gallery/arrange3.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange3.jpg" />
+            <img
+              src="assets/images/gallery/arrange3.jpg"
+              alt="wreathe of orange and yellow roses and daisies"
+            />
           </a>
           <a href="assets/images/gallery/arrange4.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange4.jpg" />
+            <img
+              src="assets/images/gallery/arrange4.jpg"
+              alt="arrangement of wildflowers"
+            />
           </a>
           <a href="assets/images/gallery/arrange5.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange5.jpg" />
+            <img
+              src="assets/images/gallery/arrange5.jpg"
+              alt="table center piece featuring bright pink flowers"
+            />
           </a>
           <a href="assets/images/gallery/arrange6.jpg" target="_blank">
-            <img src="assets/images/gallery/arrange6.jpg" />
+            <img
+              src="assets/images/gallery/arrange6.jpg"
+              alt="tall conical flower arrangement featuring soft pink flowers"
+            />
           </a>
           <a href="assets/images/gallery/bouquet1.jpg" target="_blank">
-            <img src="assets/images/gallery/bouquet1.jpg" />
+            <img
+              src="assets/images/gallery/bouquet1.jpg"
+              alt="bouquet of multicolours flowers"
+            />
           </a>
           <a href="assets/images/gallery/bouquet2.jpg" target="_blank">
-            <img src="assets/images/gallery/bouquet2.jpg" />
+            <img
+              src="assets/images/gallery/bouquet2.jpg"
+              alt="bouquet of daisies wrapped in decorative film"
+            />
           </a>
           <a href="assets/images/gallery/bouquet3.jpg" target="_blank">
-            <img src="assets/images/gallery/bouquet3.jpg" />
+            <img
+              src="assets/images/gallery/bouquet3.jpg"
+              alt="small bouquet featuring roses"
+            />
           </a>
           <a href="assets/images/gallery/buttonhole1.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole1.jpg" />
+            <img src="assets/images/gallery/buttonhole1.jpg" alt="small buttonhole made using ivy and a single rose"/>
           </a>
           <a href="assets/images/gallery/buttonhole2.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole2.jpg" />
+            <img src="assets/images/gallery/buttonhole2.jpg" alt="button hole made using leaves and purple flowers"/>
           </a>
           <a href="assets/images/gallery/buttonhole3.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole3.jpg" />
+            <img src="assets/images/gallery/buttonhole3.jpg" alt="button hole made using ferns and leaves with purple stemmed flowers"/>
           </a>
           <a href="assets/images/gallery/buttonhole4.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole4.jpg" />
+            <img src="assets/images/gallery/buttonhole4.jpg" alt="button hole made using berries"/>
           </a>
         </div>
       </section>
 
       <!-- Calendar section -->
+      <!-- Code from this section is based on a design from the following link: https://www.w3schools.com/howto/howto_css_timeline.asp. The styling was changed and the arrangement of the divs was also changed to allow for an icon on each 'card'-->
       <section id="calendar">
         <h2><a class="anchor" id="calendar-anchor"></a>Calendar</h2>
         <p>
-          A florist's calendar is a busy one! Flowers are the perfect gift or
+          A florist's calendar is a busy one: flowers are the perfect gift or
           accompaniment for all sorts of dates throughout the year.
         </p>
         <br />
         <p>
           Have a think about how I can make your occasion extra special and get
-          in touch below!
+          in touch below.
         </p>
         <div class="timeline">
           <!-- Valentine's Day -->
@@ -253,6 +282,7 @@
               id="full-name"
               name="name"
               placeholder="Full Name"
+              aria-label="full name"
               required
             />
             <input
@@ -260,6 +290,7 @@
               id="email"
               name="email"
               placeholder="Email"
+              aria-label="email"
               required
             />
             <textarea
@@ -268,9 +299,15 @@
               id="message"
               name="message"
               placeholder="Message"
+              aria-label="message"
               required
             ></textarea>
-            <input id="submit" type="submit" value="Submit" />
+            <input
+              id="submit"
+              type="submit"
+              value="Submit"
+              aria-label="submit"
+            />
           </form>
         </div>
       </section>
