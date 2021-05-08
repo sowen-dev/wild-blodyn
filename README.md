@@ -77,11 +77,19 @@ Given the target audience, a single page, linear experience would be best suited
 
 * Welcome message and photo (on suitably sized devices) from Bethann of Wild Blodyn
 
+![Welcome](.screenshots/welcome.png)
+
 * Image gallery demonstrating ability and versatility of the client
+
+![Gallery Feature](.screenshots/gallery.png)
 
 * 'Calendar' in the style of a timeline which shows the events which are catered for throughout the year
 
+![Calendar Features](.screenshots/event-calendar.png)
+
 * Contact form - temporarily posts to Code Institute form dump: https://formdump.codeinstitute.net
+
+![Contact Form](.screenshots/contact.png)
 
 * Social media links
 
@@ -126,35 +134,17 @@ Welcome section words and the contents of the calendar cards were provided by Wi
 All media (including the logo) was supplied by Wild Blodyn. Wild Blodyn are the sole owner of all images and graphics used.
 
 ### Acknowledgements
-Generation of colour swatches:
 
-    https://coolors.co/
-
-Icons for calendar event cards:
-
-    https://fontawesome.com/
-
-Stack Overflow for assistance on offsetting anchors for sticky nav bar and removing the back black border around the form inputs:
-
-    https://stackoverflow.com/a/13117744
-    https://stackoverflow.com/a/62103854
-
-Google Fonts API for Page Font:
-
-    https://fonts.google.com/
-
-W3 Schools for tutorials as sticky header and timeline feature:
-
-    https://www.w3schools.com/howto/howto_css_timeline.asp
-    https://www.w3schools.com/howto/howto_js_sticky_header.asp
-
-HTML and CSS Validators used to check code integrity:
-
-    https://jigsaw.w3.org/css-validator/
-    https://validator.w3.org/
-
-Used to generate site mockup for README.md:
-
-    https://techsini.com/multi-mockup/index.php
-
-Credit also to the Code Institute 'Love Running' project
+| Acknowledgement | Link |
+| :---            | :---    |
+| Generation of colour swatches | https://coolors.co/ |
+| Icons for calendar event cards | https://fontawesome.com/ |
+| Assistance in offsetting anchors for the stick nav bar | https://stackoverflow.com/a/13117744 |
+| Assistance in removing the black border around form inputs | https://stackoverflow.com/a/62103854 |
+| Fonts | https://fonts.google.com/ |
+| Sticky header tutorial | https://www.w3schools.com/howto/howto_js_sticky_header.asp |
+| Timeline tutorial | https://www.w3schools.com/howto/howto_css_timeline.asp |
+| HTML Validator | https://validator.w3.org/ |
+| CSS Validator | https://jigsaw.w3.org/css-validator/ |
+| Site Mockup Generator | https://techsini.com/multi-mockup/index.php |
+| Tool for capturing site screenshots | https://fireshot.en.softonic.com/ |
