@@ -123,16 +123,28 @@
             />
           </a>
           <a href="assets/images/gallery/buttonhole1.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole1.jpg" alt="small buttonhole made using ivy and a single rose"/>
+            <img
+              src="assets/images/gallery/buttonhole1.jpg"
+              alt="small buttonhole made using ivy and a single rose"
+            />
           </a>
           <a href="assets/images/gallery/buttonhole2.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole2.jpg" alt="button hole made using leaves and purple flowers"/>
+            <img
+              src="assets/images/gallery/buttonhole2.jpg"
+              alt="button hole made using leaves and purple flowers"
+            />
           </a>
           <a href="assets/images/gallery/buttonhole3.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole3.jpg" alt="button hole made using ferns and leaves with purple stemmed flowers"/>
+            <img
+              src="assets/images/gallery/buttonhole3.jpg"
+              alt="button hole made using ferns and leaves with purple stemmed flowers"
+            />
           </a>
           <a href="assets/images/gallery/buttonhole4.jpg" target="_blank">
-            <img src="assets/images/gallery/buttonhole4.jpg" alt="button hole made using berries"/>
+            <img
+              src="assets/images/gallery/buttonhole4.jpg"
+              alt="button hole made using berries"
+            />
           </a>
         </div>
       </section>
@@ -294,7 +306,6 @@
               required
             />
             <textarea
-              type="text"
               rows="6"
               id="message"
               name="message"
@@ -338,28 +349,29 @@
         </li>
       </ul>
     </footer>
-  </body>
-  <!-- The following script makes the navigation menu sticky at the point it reached the top of the page, ensuring that
+
+    <!-- The following script makes the navigation menu sticky at the point it reached the top of the page, ensuring that
   it is always in view. Link to original script: https://www.w3schools.com/howto/howto_js_sticky_header.asp-->
-  <script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function () {
-      stickMenu();
-    };
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function () {
+        stickMenu();
+      };
 
-    // Get the menu
-    var menu = document.getElementById("menu");
+      // Get the menu
+      var menu = document.getElementById("menu");
 
-    // Get the offset position of the navbar
-    var sticky = menu.offsetTop;
+      // Get the offset position of the navbar
+      var sticky = menu.offsetTop;
 
-    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function stickMenu() {
-      if (window.pageYOffset >= sticky  ) {
-        menu.classList.add("sticky");
-      } else {
-        menu.classList.remove("sticky");
+      // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function stickMenu() {
+        if (window.pageYOffset >= sticky) {
+          menu.classList.add("sticky");
+        } else {
+          menu.classList.remove("sticky");
+        }
       }
-    }
-  </script>
+    </script>
+  </body>
 </html>
