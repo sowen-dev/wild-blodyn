@@ -123,11 +123,11 @@ offset added to the top which takes it clear of the
 menu. Link: https://stackoverflow.com/a/13117744
 */
 
+/* Formatting for sections------------------------ */
+
 .anchor {
   padding-top: 110px;
 }
-
-/* Welcome---------------------------------------- */
 
 section {
   padding: 0 16% 0 16%;
@@ -137,6 +137,8 @@ section h2 {
   margin-top: 20px;
   padding-bottom: 10px;
 }
+
+/* Welcome---------------------------------------- */
 
 #welcome-section {
   margin-top: 20px;
@@ -193,14 +195,14 @@ section h2 {
   margin-left: -3px;
 }
 
-.container {
+.card {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.container::after {
+.card::after {
   content: "";
   position: absolute;
   width: 25px;
@@ -321,11 +323,9 @@ footer i {
     margin-left: 0;
   }
 
+  /* Remove profile photo on smaller screens */
   #profile-photo {
-    float: none;
-    margin: 0 auto 20px auto;
     display: none;
-    top: 0;
   }
 
   #gallery-wrapper {
@@ -340,7 +340,8 @@ footer i {
     width: 75%;
   }
 
-  .container {
+  /* Format timeline feature for smaller screens */
+  .card {
     width: 95%;
     padding: 10px 20px;
   }
@@ -357,6 +358,7 @@ footer i {
 }
 
 @media screen and (max-width: 943px) {
+  /* Fix menu to top of screen for smaller devices */
   #menu {
     position: fixed;
     top: 0;
